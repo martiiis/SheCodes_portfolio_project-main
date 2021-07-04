@@ -107,6 +107,15 @@
   margin-right: 15px;
   color:var(--secondary-color);
 }
+.uniqueItem-link{
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+.uniqueItem-link:hover{
+  text-decoration: overline;
+  color: var(--secondary-color);
+}
 .list-skills .fab,
 .list-skills .fas {
   color: var(--secondary-color);
