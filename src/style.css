@@ -60,6 +60,7 @@
 .col-sm-7 h1 {
   font-family: var(--secondary-font-family);
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 .about-description {
   font-family: var(--primary-font-family);
@@ -71,6 +72,7 @@
 .profile-pic {
   border-radius: 15px;
   border: 1px solid rgb(60, 16, 83);
+  margin-top: 0 auto;
 }
 .certificatesContainer .certificatesImage {
   display: block;
@@ -80,8 +82,30 @@
   transition: all 200ms ease-in-out;
   border: 1px solid rgb(60, 16, 83);
 }
-.list-skills ul {
+.accordion-header .accordion-button {
+  font-size: 15px;
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+  padding:15px;
+  background-color: var(--branding-background);
+}
+.accordion-button:hover {
+  color: var(--secondary-color);
+  
+}
+.accordion-body ul {
   list-style-type: none;
+  display: inline;
+}
+
+.list-skills li {
+  list-style-type: none;
+}
+.fa-fingerprint {
+  font-size: 15px;
+  opacity: 0.7;
+  margin-right: 15px;
+  color:var(--secondary-color);
 }
 .list-skills .fab,
 .list-skills .fas {
@@ -126,16 +150,11 @@
 .projectsContainer {
   font-family: var(--primary-font-family);
 }
-.projectsContainer .col-sm-5 {
-  border: 1px solid rgb(60, 16, 83);
-  background: var(--branding-background);
-  border-radius: 15px;
-}
+
 .projectsContainer .project-image {
   display: block;
   margin: 0 auto;
-  margin-top: 25px;
-  border-radius: 15px;
+  border-radius: 50px;
 }
 .projectsContainer .project-image:hover {
   transition: all 200ms ease-in-out;
@@ -167,7 +186,7 @@
 .projectsContainer .project-description {
   font-family: var(--primary-font-family);
   line-height: 1.8;
-  margin:10px 15px 10px;
+  margin: 10px 15px 10px;
   text-align: justify;
 }
 
@@ -177,9 +196,12 @@
   font-size: 22px;
   margin-top: 15px;
   text-align: center;
+  line-height: 2.5;
 }
-.skills-tools {
-  font-size: 34px;
+.skills-tools .fab,
+.skills-tools .fas,
+.skills-tools .far {
+  font-size: 30px;
   opacity: 0.7;
   color: var(--secondary-color);
 }
