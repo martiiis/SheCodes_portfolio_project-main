@@ -74,6 +74,9 @@
   border: 1px solid rgb(60, 16, 83);
   margin-top: 0 auto;
 }
+.motto{
+  font-style: italic;
+}
 .certificatesContainer .certificatesImage {
   display: block;
   margin: 0 auto;
