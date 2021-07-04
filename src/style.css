@@ -84,7 +84,8 @@
 .certificatesContainer .certificatesImage:hover {
   transition: all 200ms ease-in-out;
   border: 1px solid rgb(60, 16, 83);
-  width: 550px;
+  width: 400px;
+  
 }
 .accordion-header .accordion-button {
   font-size: 15px;
