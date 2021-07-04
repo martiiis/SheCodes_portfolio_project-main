@@ -240,7 +240,7 @@
   font-size: 20px;
   font-family: var(--primary-font-family);
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 150px;
 }
 .contactDetails .fab,
 .contactDetails .fas,
@@ -252,11 +252,29 @@
 }
 .contactInfo-title {
   text-align: center;
-  font-size: 21px;
+  font-size: 18px;
   margin-bottom: 25px;
+  font-family: var(--primary-font-family);
 }
 .contactInfo{
   font-size: 15px;
+  font-weight: bold;
+}
+
+.downloadcv-button .btn {
+  font-size: 25px;
+  padding: 10px 80px;
+  margin: 2px auto 30px;
+  font-family: var(--primary-font-family);
+  border-radius: 13px;
+}
+
+.downloadcv-button  .btn:hover {
+  font-size: 25px;
+  padding: 10px 80px;
+  margin: 2px auto 30px;
+  border: 2px solid rgb(144, 58, 190);
+  border-radius: 13px;
   font-weight: bold;
 }
 /**footer**/
