@@ -163,7 +163,7 @@
 .projectsContainer .project-image {
   display: block;
   margin: 0 auto;
-  border-radius: 50px;
+  border-radius: 25px;
 }
 .projectsContainer .project-image:hover {
   transition: all 200ms ease-in-out;
