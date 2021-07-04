@@ -120,6 +120,23 @@
 .list-skills .fas {
   color: var(--secondary-color);
 }
+.toProjects-button .btn {
+  font-size: 16px;
+  padding: 5px 20px;
+  margin: 30px auto 25px;
+  font-family: var(--primary-font-family);
+  border: 2px solid #9d65c9;
+  border-radius: 13px;
+}
+
+.toProjects-button .btn:hover {
+  padding: 5px 20px;
+  margin: 30px auto 25px;
+  font-family: var(--primary-font-family);
+  border: 2px solid rgb(60, 16, 83);
+  border-radius: 13px;
+  font-weight: bold;
+}
 
 /**Work page**/
 
@@ -216,7 +233,9 @@
   opacity: 0.7;
   color: var(--secondary-color);
 }
-/**contact**/
+
+/**CONTACT PAGE**/
+
 .contactContainer {
   font-size: 20px;
   font-family: var(--primary-font-family);
@@ -227,17 +246,19 @@
 .contactDetails .fas,
 .contactDetails .far {
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
   color: var(--secondary-color);
   opacity: 1;
 }
-.contactInfo {
+.contactInfo-title {
   text-align: center;
-  font-size: 22px;
-  border: 1px solid black;
-  margin: 25px 25px;
+  font-size: 21px;
+  margin-bottom: 25px;
 }
-
+.contactInfo{
+  font-size: 15px;
+  font-weight: bold;
+}
 /**footer**/
 footer {
   margin: 50px 20px;
