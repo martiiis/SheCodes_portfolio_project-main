@@ -8,7 +8,7 @@
     rgb(60, 16, 83)
   );
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --primary-font-family: 'Baloo 2', cursive;
+  --primary-font-family: "Baloo 2", cursive;
   --secondary-font-family: "Delius Unicase", cursive;
 }
 /**Homepage**/
@@ -75,37 +75,45 @@
 .certificatesContainer .certificatesImage {
   display: block;
   margin: 0 auto;
-  
 }
 .certificatesContainer .certificatesImage:hover {
   transition: all 200ms ease-in-out;
   border: 1px solid rgb(60, 16, 83);
 }
-.list-skills ul{
-    list-style-type:none;
-    
+.list-skills ul {
+  list-style-type: none;
 }
-.list-skills .fab, .list-skills .fas{
-    color: var(--secondary-color);
+.list-skills .fab,
+.list-skills .fas {
+  color: var(--secondary-color);
 }
+
 /**Work page**/
+
 .divider {
   text-align: center;
   margin: 20px 20px;
 }
-.fa-angle-double-down,
+.fa-angle-double-up,
 .fa-angle-double-right {
   font-size: 22px;
   opacity: 0.4;
+  color: black;
+}
+.col-sm-7 a {
+  text-decoration: none;
 }
 .github-repository .fa-github {
   font-size: 24px;
-  margin: 15px 15px;
+  margin: 10px 10px;
   color: black;
+  text-align: center;
+  display: block;
 }
-.fa-github:hover {
+.github-repository .fa-github:hover {
   transition: all 200ms ease-in-out;
   color: #8307f8;
+  text-decoration: overline;
 }
 .projectsPage,
 .aboutPage {
@@ -149,7 +157,7 @@
   font-weight: bold;
 }
 .projectsContainer .col-sm-7 {
-  padding: 55px;
+  padding: 15px;
 }
 .projectsContainer .project-name {
   font-weight: bold;
@@ -159,8 +167,7 @@
 .projectsContainer .project-description {
   font-family: var(--primary-font-family);
   line-height: 1.8;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin:10px 15px 10px;
   text-align: justify;
 }
 
@@ -168,16 +175,17 @@
   font-family: var(--primary-font-family);
   font-weight: bold;
   font-size: 22px;
-  margin-left: 25px;
+  margin-top: 15px;
+  text-align: center;
 }
 .skills-tools {
   font-size: 34px;
   opacity: 0.7;
   color: var(--secondary-color);
 }
-.fa-html5:hover,
-.fa-css3-alt:hover,
-.fa-js-square:hover {
+.fab:hover,
+.fas:hover,
+.far:hover {
   font-size: 34px;
   transition: all 200ms ease-in-out;
   color: rgb(49, 4, 73);
@@ -211,7 +219,7 @@ footer {
   opacity: 0.6;
 }
 
-.fa-github-square:hover,
+.col-sm-4 .fa-github-square:hover,
 .fa-id-card:hover,
 .fa-linkedin:hover {
   color: rgb(115, 23, 165);
