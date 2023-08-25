@@ -339,7 +339,9 @@ footer {
 
 .fab:hover,
 .fas:hover,
-.far:hover {
+.far:hover, 
+.fa-solid:hover,
+.fa-brands:hover {
   font-size: 34px;
   transition: all 200ms ease-in-out;
   color: rgb(49, 4, 73);
