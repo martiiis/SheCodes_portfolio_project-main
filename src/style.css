@@ -124,13 +124,13 @@
 .list-skills .fab,
 .list-skills .fas,
 .list-skills .fa-solid,
-.list-skills .fa-brands {
+.list-skills .fa-brands{
   color: var(--secondary-color);
 }
 .toProjects-button .btn {
   font-size: 16px;
+  margin: 25px auto 25px;
   padding: 5px 20px;
-  margin: 30px auto 25px;
   font-family: var(--primary-font-family);
   border: 2px solid #9d65c9;
   border-radius: 13px;
@@ -138,7 +138,7 @@
 
 .toProjects-button .btn:hover {
   padding: 5px 20px;
-  margin: 30px auto 25px;
+  margin: 25px auto 25px;
   font-family: var(--primary-font-family);
   border: 2px solid rgb(60, 16, 83);
   border-radius: 13px;
